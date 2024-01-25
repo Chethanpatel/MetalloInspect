@@ -1,7 +1,9 @@
-#MetalloInspect
-##Metal surface defect detection
+# MetalloInspect
 
-The aim of this project is to use deep learning to classify 6 possible defects on metal surfaces:
+## Metal Surface Defect Detection
+
+MetalloInspect is a deep learning project designed for the classification of six possible defects on metal surfaces using state-of-the-art techniques. The goal is to accurately identify and categorize the following defects:
+
 - 0: Crazing
 - 1: Inclusions
 - 2: Patches
@@ -9,7 +11,24 @@ The aim of this project is to use deep learning to classify 6 possible defects o
 - 4: Rolled in Scale
 - 5: Scratches
 
-Two types of datasets were used in the project: the first with only 90 images (15 for each defect: 60 in the training set and 30 in the test set) and the second, 
-with which the best results were achieved, with 1800 images (300 for each defect: 1620 in the training set and 180 in the test set). 
+### Datasets
 
-The whole project was carried out entirely in Python can be found on the [Jupyter Notebook](Metal_Surface_Defects_Detection.ipynb) with Python code, output and comments.
+Two types of datasets were employed in the project:
+
+1. **Small Dataset**
+   - Images: 90 (15 for each defect)
+   - Training Set: 60 images
+   - Test Set: 30 images
+
+2. **Large Dataset (Best Results)**
+   - Images: 1800 (300 for each defect)
+   - Training Set: 1620 images
+   - Test Set: 180 images
+
+### Implementation
+
+The entire project was implemented using Python, and the code along with detailed comments and outputs can be found in the [Jupyter Notebook](Metal_Surface_Defects_Detection.ipynb).
+
+### Results
+
+The best results were achieved with the large dataset, demonstrating the effectiveness of deep learning in metal surface defect detection.
