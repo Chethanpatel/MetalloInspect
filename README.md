@@ -1,4 +1,5 @@
-# Metal surface defect detection
+#MetalloInspect
+##Metal surface defect detection
 
 The aim of this project is to use deep learning to classify 6 possible defects on metal surfaces:
 - 0: Crazing
